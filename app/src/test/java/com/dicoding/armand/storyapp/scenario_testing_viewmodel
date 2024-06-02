@@ -1,0 +1,38 @@
+======ViewModel Test==========
+A. Uji ViewModel Home
+    1. Menyimpan data token
+    2. Memastikan metode fetchStories dapat dipanggil
+    3. Memastikan data cerita tidak null
+    4. Memastikan kesesuaian data asli dengan data dummy
+
+B. Uji ViewModel LoginDanDaftar
+-Sukses
+    1. Memastikan proses login dan daftar berhasil
+    2. Memastikan data yang diterima tidak null
+    3. Memastikan kesesuaian respons antara data dummy dengan yang asli
+    4. Memastikan metode login dan daftar dapat dipanggil
+-Gagal
+    1. Memastikan proses login dan daftar gagal
+    2. Memastikan data yang diterima adalah null saat gagal
+    3. Memastikan metode login dan daftar tetap dapat dipanggil
+
+C. Uji ViewModel Peta
+-Sukses
+    1. Memastikan data berhasil diperoleh
+    2. Memastikan data tidak null
+    3. Memastikan kesesuaian data respons antara data dummy dengan yang asli
+    4. Memastikan metode getStories dapat dipanggil
+-Gagal
+    1. Memastikan data gagal diperoleh
+    2. Memastikan data adalah null saat gagal
+    3. Memastikan metode getStories tetap dapat dipanggil
+
+D. Uji ViewModel UnggahCerita
+-Sukses
+    1. Memastikan berhasil saat mengunggah file
+    2. Memastikan data yang diterima tidak null
+    3. Memastikan kesesuaian data respons antara data dummy dengan yang asli
+    4. Memastikan metode unggahCerita dapat dipanggil
+-Gagal
+    1. Memastikan gagal saat mengunggah file
+    2. Memastikan respons yang diterima berbeda dari server asli

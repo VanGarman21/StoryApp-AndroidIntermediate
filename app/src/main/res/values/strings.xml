@@ -1,0 +1,66 @@
+<resources>
+    <!-- App Information -->
+    <string name="app_name" translatable="false">StoryApp</string>
+    <string name="storyapp" translatable="false">Selamat Datang Di StoryApp</string>
+
+    <!-- User Input Prompts -->
+    <string name="edit_username">Masukkan nama pengguna Anda</string>
+    <string name="edit_email" translatable="false">contoh: user@gmail.com</string>
+    <string name="edit_password">Masukkan kata sandi Anda</string>
+    <string name="edit_description">Apa yang ingin Anda ceritakan...</string>
+
+    <!-- Error Messages -->
+    <string name="error_username">Tidak boleh kurang dari 4 karakter</string>
+    <string name="error_email">Email harus benar</string>
+    <string name="error_password">Kata sandi harus 8 karakter</string>
+    <string name="error_register">Gagal mendaftar akun</string>
+    <string name="error_add_story">Gagal menambahkan cerita, silakan coba lagi</string>
+    <string name="check">Periksa email atau kata sandi Anda</string>
+    <string name="data_not_found">Oops, data tidak ditemukan....</string>
+    <string name="check_connection">Oops, periksa koneksi Anda...</string>
+
+    <!-- User Actions -->
+    <string name="sign_in">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="upload">Unggah</string>
+    <string name="log_out">Keluar</string>
+    <string name="try_again">Coba lagi</string>
+    <string name="add_story">Tambah Cerita</string>
+
+    <string name="language_settings">Pengaturan Bahasa</string>
+
+    <!-- Other -->
+    <string name="dont_have_account">Tidak punya akun?</string>
+    <string name="register_your_account">Daftarkan akun Anda</string>
+    <string name="photo">Foto</string>
+    <string name="image_add_photo">gambar tambah foto</string>
+    <string name="camera">Kamera</string>
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="gallery">Galeri</string>
+    <string name="desc_splash">Ceritakan diri Anda</string>
+    <string name="already_account">Sudah punya akun?</string>
+    <string name="are_you_sure">Apakah Anda yakin?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="not_out">Tidak keluar</string>
+    <string name="log_out_warning">Anda keluar dari aplikasi</string>
+    <string name="warning_upload">Harap lengkapi file dengan deskripsi</string>
+    <string name="success_add_story">Berhasil menambahkan cerita</string>
+    <string name="success_register">Berhasil mendaftarkan akun</string>
+    <string name="warning_input">Data tidak lengkap</string>
+    <string name="settings">Pengaturan</string>
+    <string name="details">Detail</string>
+    <string name="image_login">Gambar login</string>
+    <string name="image_register">Gambar Daftar</string>
+    <string name="start_now">Mulai Sekarang</string>
+    <string name="map">Map</string>
+    <string name="beranda">Beranda</string>
+    <string name="bagikan_lokasi">Bagikan Lokasi</string>
+    <string name="bahasa">Bahasa</string>
+    <string name="location_message">Silahkan aktifkan Lokasi anda</string>
+    <string name="permission_location_warning">Lokasi Tidak Di izinkan\n</string>
+    <string name="story_location">Lokasi Cerita</string>
+    <string name="warning_active_location">Silahkan aktifkan lokasi anda</string>
+</resources>

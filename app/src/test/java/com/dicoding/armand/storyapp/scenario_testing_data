@@ -1,0 +1,21 @@
+======Data Test==========
+A. Metode Uji LoginDanDaftar
+-Sukses
+    1. Memastikan proses login dan daftar berhasil
+    2. Memastikan data yang diterima tidak null
+    3. Memastikan respons yang diterima sesuai dengan data dummy
+    4. Memastikan fungsi login dan daftar dapat dipanggil
+-Gagal
+    1. Memastikan proses login dan daftar gagal
+    2. Memastikan data yang diterima adalah null saat gagal
+    3. Memastikan fungsi login dan daftar tetap dapat dipanggil saat gagal
+
+B. Metode Uji UploadCeritaViewModel
+-Sukses
+    1. Memastikan berhasil saat mengunggah file
+    2. Memastikan data yang diterima tidak null
+    3. Memastikan respons yang diterima sesuai dengan data dummy
+    4. Memastikan fungsi unggahCerita dapat dipanggil
+-Gagal
+    1. Memastikan gagal saat mengunggah file
+    2. Memastikan respons yang diterima berbeda dari server asli
